@@ -57,6 +57,8 @@ app.use(flash());
 app.use("/", mainRoutes);
 app.use("/post", postRoutes);
 
+app.use("/css", express.static(__dirname + "/node_modules/bootstrap/dist/css"));
+
 //Server Running
 app.listen(process.env.PORT, () => {
   console.log("Server is running, you better catch it!");
