@@ -1,14 +1,13 @@
 # Sprout
 
-![Sprout logo](./public/assets/logo/logo.png)
+![Sprout logo](./public/assets/logo/sprout-sm.png)
 
-## Full stack social media application created to encourage gardeners to exercise their green thumb and share their journey with others.
+**Sprout is a full stack social media application created to encourage gardeners to exercise <br />
+their green thumb and share their journey with others.**
 
 **Tech used:** HTML, CSS, Bootstrap, JavaScript, Node.js, Express.js, MongoDB
 
-# Setup
-
-# Install
+# Install dependencies
 
 `npm install`
 
@@ -25,6 +24,6 @@
 
 ---
 
-# Run
+# Run the application
 
 `npm start`
