@@ -1,5 +1,12 @@
-# Social Media App
+# Sprout
 
+![Sprout logo](./public/assets/logo/logo.png)
+
+## Full stack social media application created to encourage gardeners to exercise their green thumb and share their journey with others.
+
+**Tech used:** HTML, CSS, Bootstrap, JavaScript, Node.js, Express.js, MongoDB
+
+# Setup
 
 # Install
 
