@@ -1,5 +1,5 @@
 module.exports = {
   getCreate: (req, res) => {
-    res.render("create.ejs");
+    res.render("create");
   },
 };

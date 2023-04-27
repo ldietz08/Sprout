@@ -18,6 +18,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-flash": "^0.0.2",
+    "express-react-views": "^0.11.0",
     "express-session": "^1.17.1",
     "method-override": "^3.0.0",
     "mongodb": "^3.6.5",
@@ -28,6 +29,8 @@
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "qs": "^6.11.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "validator": "^13.6.0"
   }
 }
