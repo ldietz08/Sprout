@@ -33,6 +33,39 @@ export default function Main(props) {
           <link rel="stylesheet" href="/css/style.css" />
         </head>
         <body>
+          <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+              <a href="/">
+                <img src="../../assets/logo/logo.png" width="200" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#nav-menu"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="nav-menu">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a href="#about" class="nav-link"></a>
+                  </li>
+                  <li>
+                    <a href="/login" class="m-2 btn btn-outline-success">
+                      Login
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/signup" class="m-2 btn btn-outline-success">
+                      Signup
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
           {props.children}
           <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"

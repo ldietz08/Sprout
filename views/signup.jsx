@@ -1,7 +1,7 @@
 import React from "react";
-import Main from "./components/Main";
+import Main from "./components/Main.jsx";
 
-export default function Login(props) {
+export default function Signup(props) {
   return (
     <>
       <Main>
@@ -21,8 +21,19 @@ export default function Login(props) {
                     </div>;
                   })
                 : null}
-              <form action="/login" method="POST">
-                <h1>Login</h1>
+              <form action="/signup" method="POST" className="pb-5">
+                <h1>Sign Up</h1>
+                <div className="mb-3">
+                  <label for="userName" className="form-label">
+                    User Name
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="userName"
+                    name="userName"
+                  />
+                </div>
                 <div className="mb-3">
                   <label for="exampleInputEmail1" className="form-label">
                     Email address
@@ -34,22 +45,36 @@ export default function Login(props) {
                     aria-describedby="emailHelp"
                     name="email"
                   />
+                  <div id="emailHelp" className="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
                 </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" className="form-label">
+                <div className="mb-3">
+                  <label for="password" className="form-label">
                     Password
                   </label>
                   <input
                     type="password"
                     className="form-control"
-                    id="exampleInputPassword1"
+                    id="password"
                     name="password"
+                  />
+                </div>
+                <div className="mb-3">
+                  <label for="confirmPassword" className="form-label">
+                    Confirm Password
+                  </label>
+                  <input
+                    type="password"
+                    className="form-control"
+                    id="confirmPassword"
+                    name="confirmPassword"
                   />
                 </div>
                 <div className="pb-2">
                   <span>
-                    Not a member?
-                    <a href="/signup">Signup now</a>
+                    Already a member?
+                    <a href="/login">Login</a>
                   </span>
                 </div>
                 <button type="submit" className="btn btn-outline-success">
